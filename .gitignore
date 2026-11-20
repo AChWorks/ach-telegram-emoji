@@ -1,0 +1,19 @@
+# Secrets and local operator state (never publish)
+/.env
+/.env.*
+/data/
+/assets/imported/
+/secrets/
+/*.secret
+/*.key
+/token.txt
+
+# Local interpreter and tooling
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store

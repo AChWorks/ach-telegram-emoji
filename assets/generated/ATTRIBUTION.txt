@@ -1,0 +1,4 @@
+Phosphor Icons (MIT)
+Source: https://github.com/phosphor-icons/core
+Revision: 2b75f3ad12b420c9504ef05df8d2564a28f8500e
+The original MIT license is available at assets/sources/phosphor/LICENSE.phosphor.txt

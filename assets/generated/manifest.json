@@ -1,0 +1,29 @@
+{
+  "library": "Phosphor Core",
+  "license": "MIT",
+  "revision": "2b75f3ad12b420c9504ef05df8d2564a28f8500e",
+  "source": "https://github.com/phosphor-icons/core",
+  "target_size": [
+    100,
+    100
+  ],
+  "variants": [
+    "mono",
+    "color",
+    "badge"
+  ],
+  "icons": [
+    "wallet",
+    "credit-card",
+    "check-circle",
+    "warning-circle",
+    "headset",
+    "shield-check",
+    "user",
+    "gear",
+    "gift",
+    "bell",
+    "globe",
+    "lock"
+  ]
+}
