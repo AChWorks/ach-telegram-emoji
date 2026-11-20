@@ -21,6 +21,7 @@ ACh Telegram Emoji is the single repository for an ACh-branded design and produc
 - **Publishing is an external action.** Present the exact title, short name, owner, assets and target Telegram account for owner approval before publishing or changing live packs.
 - **Credential and personal data boundaries:** Use an approved protected service credential/runtime mechanism; never store secrets or real-user messages/selection state in public Git.
 - **Source rights:** The owner reported permission to reuse the three referenced Telegram emoji packs. Record their provenance; do not assume this gives permission for arbitrary other sets.
+- **Project license:** ACh-authored source code, tools, tests, and project documentation use [MPL-2.0](../LICENSE). Third-party artwork and derived icon outputs are not relicensed by the repository-wide license.
 - **Third-party library terms:** Follow each set's license as applied to specific files; not every “free” icon is redistributable. Preserve required notices/attribution.
 - **Style consistency:** Each generated pack should have a coherent source, weight, scale, padding and palette, even if the wider project hosts many families.
 - Do not invent restrictions unrelated to real Telegram format/API contracts. Keep import, transformation and publishing separate so experiments do not imply publication.
@@ -37,7 +38,7 @@ ACh Telegram Emoji is the single repository for an ACh-branded design and produc
 - The Telegram bot's token is not present in Git and must be enrolled by the operator separately; do not claim account readiness without checking it.
 - Real `getStickerSet` import for the three supplied packs, reuse of source `file_id` in a new set, actual Telegram publication, and end-user rendering remain unverified.
 - Full sticker (non-emoji) generation/export and video/TGS animation are future scope, not implemented.
-- Which source library, art direction, published names, palettes and project-wide license to use long term are not final decisions.
+- Which source library, art direction, published names and palettes to use long term are not final decisions. The ACh project license is settled as MPL-2.0; upstream assets retain their own licenses.
 
 ## Success criteria (next active milestone)
 
