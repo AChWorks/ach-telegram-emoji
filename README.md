@@ -41,6 +41,6 @@ The durable project scope and completion criteria are in [PROJECT-SPEC](docs/PRO
 
 The Phosphor sample icons are licensed **MIT** by their respective copyright holders; their unmodified license is included in [`assets/sources/phosphor/LICENSE.phosphor.txt`](assets/sources/phosphor/LICENSE.phosphor.txt) and the source revision is recorded in the manifest. Other recommended libraries may require attribution or have different redistribution rules. The linked library is **not** automatically imported or licensed by this repository. See [ICON-SOURCES](docs/ICON-SOURCES.md).
 
-**No repository-wide license for original ACh code has been selected yet.** Public visibility alone does not grant reuse permission. Decide a project-wide license deliberately before promoting this as a reusable open-source product.
+**Project license: [Mozilla Public License 2.0 (MPL-2.0)](LICENSE).** Original ACh source code, tools, tests, and project documentation are made available under MPL-2.0. The license requires modified covered source files to remain under MPL when distributed, while allowing use alongside separately licensed files. This does **not** relicense third-party Phosphor assets, generated artwork based on them, or externally imported emoji/stickers; those retain their own rights and notices.
 
 Never commit bot tokens, service credential IDs, operator identities, chat contents, local `data/` selections, virtual environments, or private imported files.
